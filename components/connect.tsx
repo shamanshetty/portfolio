@@ -32,6 +32,18 @@ export function Connect() {
             className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
           />
         </a>
+        <a
+          href="https://drive.google.com/file/d/1xbI1AGwutiEQNetNSqFVQF7eUOpE5GjV/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group inline-flex items-center gap-2 px-5 py-2.5 border border-primary/40 text-primary text-sm hover:bg-primary/10 transition-all duration-300"
+        >
+          Resume
+          <ArrowUpRight
+            size={14}
+            className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
+          />
+        </a>
 
         <div className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-4">
           {socials.map((social) => (
